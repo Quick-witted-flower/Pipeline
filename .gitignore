@@ -22,7 +22,6 @@ __pycache__/
 
 # Ignorowanie danych wyjściowych
 *.h5
-*.csv
 *.parquet
 
 # Ignorowanie środowiska wirtualnego
