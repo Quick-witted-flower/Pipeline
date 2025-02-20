@@ -3,9 +3,9 @@
 
 # Ignorowanie innych potencjalnie zbędnych plików
 __pycache__/
-*.pyc
+*.py[cod]
 
-# Ignorowanie plików i folderów systemowych
+# Ignorowanie plików systemowych
 .DS_Store
 Thumbs.db
 
@@ -13,16 +13,14 @@ Thumbs.db
 *.env
 secrets.json
 
-# Ignorowanie plików tymczasowych i cache
-.ipynb_checkpoints/
-__pycache__/
-*.py[cod]
+# Ignorowanie plików tymczasowych i logów
 *.log
 *.sqlite3
 
-# Ignorowanie danych wyjściowych
+# Ignorowanie danych wyjściowych (np. modeli, wyników analizy)
 *.h5
 *.parquet
+*.pkl
 
 # Ignorowanie środowiska wirtualnego
 venv/
